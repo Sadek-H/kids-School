@@ -66,6 +66,10 @@ nav{
 #menu{
   display: none;
 }
+.hr-2{
+display: none;
+}
+
 /* for mobile */
 @media only screen and (max-width: 600px) {
    #school{
@@ -82,17 +86,33 @@ nav{
     width: 46px;
     height: 46px;
    }
-   .nav{
+   
+    hr .hr-2{
+   display: block;
+    border: 1px solid #FEA301;
+      
+ 
+}
+   
+   nav{
     width: 390px;
-    border: 2px solid #FEA301;
-    display: flex;
-    justify-content: center;
-    
-   }
-   #menu{
-    display: block;
+   display: flex;
+   justify-content: space-between;
+    align-items: center;
    
    }
+   #menu{
+    position: absolute;
+    width: 20px;
+    height: 14px;
+    right: 28px;
+    top: 9.5px;
+    display: block;
+    color: #111111;
+  
+   
+   }
+   
   }
 
 /* end */
@@ -157,16 +177,17 @@ color: #01ACFD;
         width: 390px;
       /* margin:30px; */
        text-align: center;
-      
+      margin-top: 130px;
     }
     .banner-img{
-        width: 336px;
-      height: 413px;
-     display: block;
-     margin:0 auto;
+         width: 336px;
+         height: 413px;
+         display: block;
+           margin:0 auto;
      
      
     }
+   
     .banner-des h4{
         width: 357px;
         height: 120px;
@@ -306,9 +327,10 @@ main{
 
 .grid-container{
   background: url("assets/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
-width: 1158px;
-margin: 0 auto;
+/* width: 1158px;*/
+
 }
+
 .title-2{
   color: #000000;
  text-align: center;
@@ -317,6 +339,8 @@ margin: 0 auto;
   font-family: Quicksand;
 }
  .grid-card{
+  width: 1158px;
+  margin: 0 auto; 
   display: grid;
   grid-template-columns:auto auto;
   gap: 18.73px;
@@ -506,4 +530,165 @@ background: rgb(255, 255, 255);
   color: #000000;
   font-family: Quicksand;
   margin: 0 auto;
+}
+
+/* for mobile */
+
+@media only screen and (max-width: 600px){
+ 
+  .arrow{
+    display: none;
+  }
+  .title-2{
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .grid-card-details{
+    display: none;
+  }
+  .grid-2{
+    display: grid;
+    grid-template-columns:auto auto;
+    width: 358px;
+   gap: 11.31;
+   margin-top: 20px;
+   
+    }
+  .grid-card-details-2{
+   width: 173px;
+   height: 179.59px;
+  }
+  .grid-card-details-2 img{
+   width: 173px;
+   height: 105px;
+  }
+  .grid-card-details-2 h5{
+    font-size: 9.13px;
+    width: 117px;
+    height: 28px;
+    font-weight: bold;
+    line-height: 17.1px;
+  }
+  .grid-card-details-2 button{
+    font-size: 9.13px;
+    width: 103px;
+    height: 22px;
+    padding: 4px;
+    position: relative;
+    top: -15px;
+    left: 22px;
+  }
+  .grid-card-details-3{
+    width: 173px;
+    height: 179.59px;
+   }
+   .grid-card-details-3 img{
+    width: 173px;
+    height: 105px;
+   }
+   .grid-card-details-3 h5{
+     font-size: 9.13px;
+     width: 117px;
+     height: 28px;
+     font-weight: bold;
+     line-height: 17.1px;
+   }
+   .grid-card-details-3 button{
+     font-size: 9.13px;
+     width: 103px;
+     height: 22px;
+     padding: 4px;
+     position: relative;
+     top: -15px;
+     left: 22px;
+   }
+
+
+   
+
+   .grid-card-details-4{
+    width: 173px;
+    height: 179.59px;
+   }
+   .grid-card-details-4 img{
+    width: 173px;
+    height: 105px;
+   }
+   .grid-card-details-4 h5{
+     font-size: 9.13px;
+     width: 117px;
+     height: 28px;
+     font-weight: bold;
+     line-height: 17.1px;
+   }
+   .grid-card-details-4 button{
+     font-size: 9.13px;
+     width: 103px;
+     height: 22px;
+     padding: 4px;
+     position: relative;
+     top: -15px;
+     left: 22px;
+   }
+
+
+   .grid-card-details-5{
+    width: 173px;
+    height: 179.59px;
+   }
+   .grid-card-details-5 img{
+    width: 173px;
+    height: 105px;
+   }
+   .grid-card-details-5 h5{
+     font-size: 9.13px;
+     width: 117px;
+     height: 28px;
+     font-weight: bold;
+     line-height: 17.1px;
+   }
+   .grid-card-details-5 button{
+     font-size: 9.13px;
+     width: 103px;
+     height: 22px;
+     padding: 4px;
+     position: relative;
+     top: -15px;
+     left: 22px;
+   }
+
+}
+
+/* end */
+#btn-3{
+  padding: 40px;
+ 
+   text-align: center;
+   margin-top: 70px;
+}
+#btn-3 button{
+  padding: 10px 10px;
+  border-radius: 12px;
+  background-color: #111111;
+  border: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Quicksand;
+  width: 197px;
+  height: 50px;
+  padding: 10px 10px;
+ border: none;
+}
+
+
+.footer{
+  position: relative;
+  width: 1292px;
+  height: 519px;
+  left: 21px;
+  top: -20px;
+  background-color: #01ACFD;
+
 }
