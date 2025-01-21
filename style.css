@@ -93,7 +93,9 @@ nav {
   #school {
     display: none;
   }
-
+.quote{
+  width: 390px;
+}
   .lists {
     display: none;
   }
