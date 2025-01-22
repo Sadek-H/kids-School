@@ -95,7 +95,8 @@ nav {
   }
 
   .quote {
-    width: 100%;
+    width:500px;
+    margin: 0 auto;
    
   }
 
@@ -115,10 +116,10 @@ nav {
 
 
   nav {
-    width: 100%;
+    width: 390px;
     display: grid;
     grid-template-columns: auto auto;
-   
+ 
     align-items: center;
     border: 1px solid #FEA301;
     padding: 10px;
@@ -138,7 +139,7 @@ nav {
     position: absolute;
     width: 10px;
     height: 10px;
-    right: 28px;
+    right: 25px;
     top: 9.5px;
     display: block;
     color: #111111;
@@ -214,10 +215,12 @@ nav {
   .banner {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+     justify-content: center;
+    align-items: center; 
+    width: 390px;
+    margin: 0 auto;
     margin-top: 90px;
+    /* margin-left: 60px; */
 
   }
   main{
